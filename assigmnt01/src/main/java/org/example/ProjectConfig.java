@@ -18,6 +18,7 @@ public class ProjectConfig {
     public Owner owner() {
         Owner owner = new Owner();
         owner.setName("Aizana");
+        owner.setDog(dog());
         return owner;
     }
 }
